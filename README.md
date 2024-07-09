@@ -19,6 +19,13 @@ The equation used was
 In the PID loop used, Kp has been made dependent on velocity and distance:
 + self.Kp = 0.6*math.exp(self.f_vel)/self.fard
 
+Video of its application:
+
+
+https://github.com/cintlib/UAV_Docs/assets/154340547/cc1087fa-0cc8-40bd-a08e-8b21ba48c460
+
+
+
 A potential field function has also been used to limit horizontal velocity in case of very tall obstacle, so that the drone gets enough time to complete its ascent.
 
 ## New mode
