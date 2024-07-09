@@ -4,6 +4,12 @@
 Follow the guide given below, but first:
 Note that the version of ardupilot you have to clone into your system has changed. Use this: [https://github.com/sdhar04/Agri_Loiter-Stable](https://github.com/sdhar04/Argi_Loiter-Stable)
 [guide](https://docs.google.com/document/d/1ihAxgX1y3yRMqRnX1yWfk9WDaxZt8JmtFyEddi13SWw/edit?usp=sharing)
+Make sure you are installing Ubuntu 20.04.
+Dual Booting FAQs:
++ Can I run things on a VM instead?
+  MacBooks cannot be dual booted, and VMs generally run better on them. In case of Windows systems, it is strongly advised to dual boot as VMs are significantly slower and computationally inefficient.
++ The device shows an error after grub, saying boot device not found.
+  Reinstall Ubuntu, this time change the location of boot device to some other drive, but take absolute care so it doen't interfere with Windows.
 
 ## Algorithm
 This algorithm has been tested on 2D LiDAR data in simulation. The next goal is to make it work with 3D data, which may be coming from LiDAR or RaDAR sensors. 
