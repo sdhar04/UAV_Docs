@@ -14,6 +14,8 @@ Out of these weighted heights, the most notable one is taken to publish a target
 
 The equation used was
 + self.k1*math.log(self.k2*self.f_vel))*math.pow(x-d-3,3))+1)*h_values[i]
+
+
 In the PID loop used, Kp has been made dependent on velocity and distance:
 + self.Kp = 0.6*math.exp(self.f_vel)/self.fard
 
